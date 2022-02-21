@@ -1,7 +1,9 @@
-function App() {
+export default function App(): JSX.Element {
   return (
-    <h1 className="text-3xl font-bold underline text-blue-500">Hello world!</h1>
+    <div className="bg-slate-800 p-20 h-screen flex justify-center items-center">
+      <h1 className="text-6xl font-bold text-white leading-snug">
+        Hey, you're okay.
+      </h1>
+    </div>
   );
 }
-
-export default App;
